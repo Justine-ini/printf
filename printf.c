@@ -67,7 +67,12 @@ int print_formatted_output(const char *format, va_list list)
 
 	return (count);
 }
-
+/**
+ * handle_d - Handles a long integer and counts/print its digits
+ * @num: The long integer to handle
+ *
+ * Return: The total count of digits in the long integer
+ */
 int handle_d(long int num)
 {
 	int count = 0;
